@@ -1,0 +1,8 @@
+{
+  "displayName": "Rakazo",
+  "features": {
+    "auth": {
+      "enabled": true
+    }
+  }
+}

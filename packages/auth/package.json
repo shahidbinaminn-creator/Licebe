@@ -15,9 +15,12 @@
     "test": "vitest run --root ../.. packages/auth/src"
   },
   "dependencies": {
+    "@auth/core": "~0.41.1",
+    "@convex-dev/auth": "latest",
     "@rakazo/core": "workspace:*",
     "@rakazo/db": "workspace:*",
-    "better-auth": "^1.6.27"
+    "convex": "latest",
+    "jose": "latest"
   },
   "devDependencies": {
     "typescript": "^5.9.2",

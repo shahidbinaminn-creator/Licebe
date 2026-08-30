@@ -12,12 +12,15 @@
     "test:e2e": "maestro test .maestro/smoke.yaml"
   },
   "dependencies": {
+    "@auth/core": "~0.41.1",
+    "@convex-dev/auth": "latest",
     "@expo/metro-runtime": "~57.0.14",
     "@rakazo/chat-ui": "workspace:*",
     "@rakazo/contracts": "workspace:*",
     "@rakazo/core": "workspace:*",
     "@react-native-vector-icons/ionicons": "13.1.2",
     "@react-native-vector-icons/material-design-icons": "13.1.2",
+    "convex": "latest",
     "expo": "~57.0.18",
     "expo-audio": "~57.0.4",
     "expo-constants": "~57.0.16",

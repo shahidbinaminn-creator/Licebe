@@ -14,6 +14,7 @@
     "intl:compile": "lingui compile"
   },
   "dependencies": {
+    "@convex-dev/auth": "latest",
     "@lingui/core": "5.9.5",
     "@lingui/react": "5.9.5",
     "@orpc/client": "^1.15.0",
@@ -23,7 +24,7 @@
     "@rakazo/core": "workspace:*",
     "@rakazo/ui-tokens": "workspace:*",
     "@rakazo/ui-web": "workspace:*",
-    "better-auth": "^1.6.27",
+    "convex": "latest",
     "lucide-react": "1.33.0",
     "react": "19.2.3",
     "react-dom": "19.2.3",

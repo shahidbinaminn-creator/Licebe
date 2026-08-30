@@ -10,6 +10,8 @@
     "test": "vitest run --root ../.. apps/api/src"
   },
   "dependencies": {
+    "@auth/core": "~0.41.1",
+    "@convex-dev/auth": "latest",
     "@hono/node-server": "^1.19.1",
     "@orpc/server": "^1.15.0",
     "@rakazo/adapter-kit": "workspace:*",
@@ -19,6 +21,7 @@
     "@rakazo/core": "workspace:*",
     "@rakazo/db": "workspace:*",
     "@rakazo/memory": "workspace:*",
+    "convex": "latest",
     "hono": "^4.9.6"
   },
   "devDependencies": {
